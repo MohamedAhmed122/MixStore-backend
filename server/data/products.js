@@ -34,7 +34,7 @@ const items = [
     name: "Orange Juice",
     price: 120,
     liked: 110,
-    dec: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet aliquid excepturi repellendus ut corrupti blanditiis quisquam fuga qui enim distinctio perferendis dignissimos quae officia, quis id in illo cupiditate veniam",
+    desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet aliquid excepturi repellendus ut corrupti blanditiis quisquam fuga qui enim distinctio perferendis dignissimos quae officia, quis id in illo cupiditate veniam",
     image:
       "https://images.pexels.com/photos/1337824/pexels-photo-1337824.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     cal: 130,
