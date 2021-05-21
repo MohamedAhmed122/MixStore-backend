@@ -10,6 +10,7 @@ import connectDB from "./config/db.js";
 import { notFound, errorHandler } from "./middleware/errorHandler.js";
 
 import userRouter from './Routes/userRouter.js'
+import productRouter from './Routes/productRoutes.js'
 
 const app = express();
 app.use(cors());
@@ -23,6 +24,7 @@ app.get("/", (req, res) => {
 });
 
 app.use('/api/users', userRouter)
+app.use('/api/products', productRouter)
 
 app.use(notFound);
 app.use(errorHandler);
