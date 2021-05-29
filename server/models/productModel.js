@@ -32,6 +32,7 @@ const productSchema = mongoose.Schema({
   liked: {
     type: Number,
     required: true,
+    default: 0
   },
   cal: {
     type: Number,
