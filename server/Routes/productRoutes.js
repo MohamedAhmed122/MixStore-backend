@@ -20,3 +20,9 @@ router
   .put(protect, admin, updateProduct);
 
 export default router;
+
+
+// ROLES
+// 1- Guest
+// 2- User With Token
+// Admin

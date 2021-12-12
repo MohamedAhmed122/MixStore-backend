@@ -17,7 +17,7 @@ export const CreateOrder = asyncHandler(async (req, res) => {
 
   if (orderItems && orderItems.length === 0) {
     res.status(400);
-    throw new Error("No orders Son of Bitch");
+    throw new Error("No orders ");
     // return;
   } else {
     const order = new Order({
